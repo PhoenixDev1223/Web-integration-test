@@ -11,29 +11,10 @@
   align-items: center;
   flex-direction: column;
   background-color: black;
+  color: white;
 }
 
-.main-body div {
-  margin-top: 10px;
-}
-
-.main-body .btn {
-  margin-top: 50px !important;
-}
-
-.main-body .loading {
-  z-index: 10;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,0.7);
-  overflow-x: hidden;
-}
-
-.main-body .loading .load {
-  position: absolute;
-  transform: translate(-50%, -50%);
-  top: 50%;
-  left: 50%;
+.main-body .wallet-address {
+  text-align: center;
+  margin-bottom: 20px;
 }
